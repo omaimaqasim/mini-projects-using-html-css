@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(234, 229, 229);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:"poppins",sans-serif;
+}
+/* main box decoration */
+.profile{
+    max-width: 400px;
+    width: 100%;
+   position: relative;
+    border-radius: 13px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* position: relative; */
+  
+}
+/* .profile {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 33%;
+    background-color: rgb(54, 54, 215);
+}
+ */
+
+/* profile photo decoration */
+.pic img{
+   
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border:2px  solid rgb(248, 245, 245);
+object-fit: cover;
+}
+.pic{
+    margin-top: 70px;
+    height: 170px;
+    position: relative;
+    width: 170px;
+    border-radius: 50%;
+    border: solid   rgb(55, 5, 237);
+    
+}
+/* coding and profession */
+.coding{
+    font-size: 26px ;
+    font-weight: bolder;
+    margin-bottom: 2px;
+}
+.profession{
+    font-size: 18px;
+}
+/* media button decoration */
+.media-buttons{
+    margin-top: 10px;
+}
+.media-buttons img{
+ width: 35px;
+ height: 35px;
+
+}
+.media-buttons a{
+    padding: 4px;
+}
+/* buttons decoration */
+.btns{
+    padding: 10px;
+}
+.btns button{
+    font-weight: 500;
+    border-radius: 16px;
+    font-size: 16px;
+    margin-left: 8px;
+    width: 110px;
+    height: 36px;
+    color: white;
+    border-style: none;
+    background-color: rgb(93, 93, 224);
+}
+.btns button:hover{
+    background-color: rgb(59, 59, 223);
+}
+.subs{
+    margin-right: 10px;
+}
+/* records decoration */
+.records{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    gap: 26px;
+    
+   
+}
+
+.records img{
+    width: 25px;
+    height: 25px;
+    
+}
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    border-right:  2px  solid rgb(182, 166, 166);
+
+}
+
+.records :last-child{
+    border-right: none;
+}
